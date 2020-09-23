@@ -12,7 +12,7 @@ Playing the audio file colours the waveform accordingly, so that the current pla
 
 ### Command Line FM Soundscape
 
-![Command Line FM ](/images/img_commandLineFM.png)
+![Command Line FM ](/images/img_commandLineFM2.png)
 
 
 This is a soundscape piece demonstrating FM synthesis in C++, using the Maximilian library. It attempts to explore the rich depths of sounds achievable through FM synthesis, possible with a very limited amount of code.
