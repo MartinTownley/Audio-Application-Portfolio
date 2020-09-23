@@ -25,6 +25,9 @@ A carrier wave (which in this case is a sine wave) is being modulated by another
 The amplitude of this first modulating wave is driven by a low-frequency phasor – this gives a a slow-paced tour through some of the sounds that can be achieved through FM synthesis.
 The amplitude of this phasor is a fixed value.
 
+_Link to audio render:_ [FM_Soundscape](https://soundcloud.com/folliclegrid/fm-soundscape-aap-portfolio)
+
+
 ### Karplus-Strong Study
 
 ![Karplus-Strong Study ](/images/img_karplus-strong.png)
