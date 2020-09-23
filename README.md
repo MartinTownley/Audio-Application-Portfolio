@@ -14,7 +14,6 @@ Playing the audio file colours the waveform accordingly, so that the current pla
 
 ![Command Line FM ](/images/img_commandLineFM2.png)
 
-
 This is a soundscape piece demonstrating FM synthesis in C++, using the Maximilian library. It attempts to explore the rich depths of sounds achievable through FM synthesis, possible with a very limited amount of code.
 It consists of very simple components:
 
@@ -25,4 +24,12 @@ It consists of very simple components:
 A carrier wave (which in this case is a sine wave) is being modulated by another sine wave, whose frequency is determined by a harmonicity ratio of the carrier.
 The amplitude of this first modulating wave is driven by a low-frequency phasor – this gives a a slow-paced tour through some of the sounds that can be achieved through FM synthesis.
 The amplitude of this phasor is a fixed value.
+
+### Karplus-Strong Study
+
+![Karplus-Strong Study ](/images/img_karplus-strong.png)
+
+A simple interactive implementation of the Karplus-Strong theorem. The model can be excited by clicking the mouse – the delay time decreases as the mouse-position goes left to right, increasing the perceived pitch of the sound.
+A filter is used to take some of the high end out of the initial noise burst. The frequency cutoff of the filter is scaled to a curve, to give more resolution in the low-end.
+
 
