@@ -3,7 +3,7 @@
 
 # 3-D Waveform Visualiser
 
-![3-D Waveform ](/images/img_waveform)
+![3-D Waveform ](/images/img_waveform.png)
 
 This project is a prototype of a 3-D waveform visualiser, made in openFrameworks.
 It takes data from a given audio file and pushes it into a 2-D vector in segments relative to the audio buffer size, where the outer vectors holds the segments, and the inner vectors contain the amplitude values.
