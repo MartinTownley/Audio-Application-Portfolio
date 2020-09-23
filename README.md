@@ -3,7 +3,7 @@
 
 ### 3-D Waveform Visualiser
 
-![3-D Waveform ](/images/img_waveform.png)
+![3-D Waveform ](/images/gif_waveform.gif)
 
 This project is a prototype of a 3-D waveform visualiser, made in openFrameworks.
 It takes data from a given audio file and pushes it into a 2-D vector in segments relative to the audio buffer size, where the outer vectors holds the segments, and the inner vectors contain the amplitude values.
@@ -31,5 +31,14 @@ The amplitude of this phasor is a fixed value.
 
 A simple interactive implementation of the Karplus-Strong theorem. The model can be excited by clicking the mouse – the delay time decreases as the mouse-position goes left to right, increasing the perceived pitch of the sound.
 A filter is used to take some of the high end out of the initial noise burst. The frequency cutoff of the filter is scaled to a curve, to give more resolution in the low-end.
+
+### The Break-Breaker (Drum Sample Chopper with Effects)
+
+![Break-Breaker ](/images/img_break-breaker.png)
+
+This project demonstrates sample playback techniques and doppler-effect pitch shifting using Maximilian methods. It manipulates drum breaks by dividing the samples into an appropriate amount of start points, and triggering those start points in random sequences (the chopper() and sampleParamsUpadate() functions contain the code for this process). It contains 5 break samples to choose between (and one vocal), or you can edit the code to load your own.
+The audio is passed through a “Zinger” effect, which is engaged by holding Q or W. It is essentially a very tight delay line in which a slow phasor is applied to the time of the delay, creating pitch “climbs” and “dives”.
+The sample playback speed and delay feedback can be controlled using the GUI.
+Each drum break included in the data folder has its own amount of divisions, which is set when the sample is selected.
 
 
