@@ -25,7 +25,7 @@ A carrier wave (which in this case is a sine wave) is being modulated by another
 The amplitude of this first modulating wave is driven by a low-frequency phasor – this gives a a slow-paced tour through some of the sounds that can be achieved through FM synthesis.
 The amplitude of this phasor is a fixed value.
 
-_Link to audio render:_ [FM_Soundscape](https://soundcloud.com/folliclegrid/fm-soundscape-aap-portfolio)
+[Link to audio demo on SoundCloud](https://soundcloud.com/folliclegrid/fm-soundscape-aap-portfolio)
 
 
 ### Karplus-Strong Study
@@ -35,6 +35,8 @@ _Link to audio render:_ [FM_Soundscape](https://soundcloud.com/folliclegrid/fm-s
 A simple interactive implementation of the Karplus-Strong theorem. The model can be excited by clicking the mouse – the delay time decreases as the mouse-position goes left to right, increasing the perceived pitch of the sound.
 A filter is used to take some of the high end out of the initial noise burst. The frequency cutoff of the filter is scaled to a curve, to give more resolution in the low-end.
 
+[Click here for video demo on Vimeo](https://vimeo.com/460925013)
+
 ### The Break-Breaker (Drum Sample Chopper with Effects)
 
 ![Break-Breaker ](/images/img_break-breaker.png)
@@ -43,5 +45,7 @@ This project demonstrates sample playback techniques and doppler-effect pitch sh
 The audio is passed through a “Zinger” effect, which is engaged by holding Q or W. It is essentially a very tight delay line in which a slow phasor is applied to the time of the delay, creating pitch “climbs” and “dives”.
 The sample playback speed and delay feedback can be controlled using the GUI.
 Each drum break included in the data folder has its own amount of divisions, which is set when the sample is selected.
+
+[Click here for video demo on Vimeo](https://vimeo.com/460927516)
 
 
